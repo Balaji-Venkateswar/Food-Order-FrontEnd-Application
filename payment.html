@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/general-styles.css">
+    <link rel="stylesheet" href="styles/button-styles.css">
+  </head>
+  <body>
+    <div class ="heading">
+      <img class="burgerking-image" 
+      onclick="location.href='menu-burgers.html'"
+      src="images/burgerking.jpg">
+      <span>BurgerKing Application</span> 
+    </div>
+  
+    <hr class="horizontal-bar">
+
+
+    <div class="heading">
+      <div id="box-display" class="quantity-box">0</div>
+      <span>Payment</span>
+    </div>
+    
+    <div class="container">
+      <div class="number-pad">
+          <button onclick="appendNumber(1);">1</button>
+          <button onclick="appendNumber(2);">2</button>
+          <button onclick="appendNumber(3);">3</button>
+          <button onclick="appendNumber(4);">4</button>
+          <button onclick="appendNumber(5);">5</button>
+          <button onclick="appendNumber(6);">6</button>
+          <button onclick="appendNumber(7);">7</button>
+          <button onclick="appendNumber(8);">8</button>
+          <button onclick="appendNumber(9);">9</button>
+          <button onclick="appendNumber(0);">0</button>
+          <button class="amount-paid">OK</button>
+          <button class="clear-button" onclick="clearDisplay();">Clear</button>
+      </div>
+      <div class="cart-container"></div>
+    </div>
+    <div class="finish-order"></div>
+    
+    <script src = "scripts/utils/append-clear-button.js"></script>
+    <script type = "module" src = "scripts/payment.js"></script>
+ 
+  </body>
+</html>

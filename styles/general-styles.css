@@ -1,0 +1,76 @@
+.heading{
+  display: flex;
+  align-items: center;
+  color: rgb(102, 0, 0);
+  font-family:  Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.burgerking-image{
+  margin-right: 450px;
+  width: 12%;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.horizontal-bar{
+  border: 2px solid #b7abab;
+  border-radius: 2px;
+  margin: 5px ;
+  background-color: #dbcbcb;
+}
+
+.quantity-box {
+  width: 160px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  margin-right: 510px;
+  margin-bottom: 1px;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.number-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  gap: 5px;
+}
+
+.cart-display {
+  display: flex;
+  justify-content:space-between;
+  color: rgb(0, 0, 0);
+  font-family:  "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-bottom: -10px;
+}
+
+.cart-item {
+  margin-right: 800px;
+}
+
+.eating-options{
+  display: flex;
+}
+
+.billing{
+    justify-content:space-between;
+    color: rgb(0, 0, 0);
+    font-family:  "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: end;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+  

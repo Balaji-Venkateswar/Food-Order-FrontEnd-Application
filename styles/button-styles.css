@@ -1,0 +1,120 @@
+.products{
+  width: 180px;
+  height: 80px;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid;
+  font-family: Verdana, sans-serif;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menuproducts{
+  background-color: rgb(208, 68, 68);
+  color: rgb(255, 255, 255);
+}
+
+.singleproducts{
+  background-color: rgb(51, 189, 235);
+  color: rgb(0, 0, 0);
+}
+
+.sauceproducts{
+  background-color: rgb(122, 248, 131);
+  color: rgb(0, 0, 0);
+}
+.drinksproducts{
+  background-color: rgb(224, 165, 28);
+  color: rgb(0, 0, 0);
+}
+.friesproducts{
+  background-color: rgb(122, 1, 1);
+  color: rgb(255, 249, 249);
+}
+
+.number-pad button {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-button {
+  grid-column: span 1;
+  background-color: #ffffff;
+}
+
+.takeaway-button{
+  width: 500px;
+  height: 500px;
+  font-size: 36px;
+  text-align: center;
+  background-color: rgb(98, 43, 7);
+  color: rgb(255, 255, 255);
+  border: 2px solid;
+  font-family: "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  cursor: pointer;
+  margin: 100px;
+}
+.dinein-button{
+  width: 500px;
+  height: 500px;
+  font-size: 36px;
+  text-align: center;
+  background-color: rgb(12, 98, 7);
+  color: rgb(255, 255, 255);
+  border: 2px solid;
+  font-family: "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  cursor: pointer;
+  margin: 100px;
+}
+
+.checkout-button{
+  width: 140px;
+  height: 70px;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(31, 217, 21);
+  color: rgb(0, 0, 0);
+  border: 2px solid;
+  font-family: Arial;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 1280px;
+}
+
+.change-page{
+  width: 180px;
+  height: 100px;
+  font-size: 14px;
+  text-align: center;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid;
+  font-family: Arial;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.currentpage-button{
+  width: 180px;
+  height: 100px;
+  font-size: 14px;
+  text-align: center;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  font-family: Arial;
+  padding: 8px;
+}
+
+button:hover {
+  transition: filter 0.3s ease; 
+  filter: brightness(60%);
+}
