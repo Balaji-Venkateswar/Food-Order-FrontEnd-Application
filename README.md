@@ -1,6 +1,6 @@
 ## Food Order Application
 
-A recreation of the food-ordering application used at Burger King counters, developed using HTML, CSS, and JavaScript. This project demonstrates the practical use of web technologies to design, style, and implement an interactive ordering system.
+A recreation of the food-ordering application used at BurgerKing counters, developed using HTML, CSS, and JavaScript. This project demonstrates the practical use of web technologies to design, style, and implement an interactive ordering system.
 
 ### Overview
 This project is inspired by the food-ordering system, I interact with daily as a part-time employee at Burger King. The goal is to recreate the application's functionality, design, and providing an interactive experience. This project serves as both a learning exercise and a demonstration of my skills in front-end web development.
@@ -20,3 +20,7 @@ To enhance accessibility and ensure the application is publicly available, I uti
 
 The application can be accessed at the following URL:
 http://burgerkingbucket.s3-website.eu-central-1.amazonaws.com/
+
+
+
+#### This project is a personal learning initiative and is not affiliated with or endorsed by Burger King or its partners.
